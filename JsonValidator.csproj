@@ -7,12 +7,10 @@
 
   <ItemGroup>
     <None Remove="resources\json.png" />
-    <None Remove="schema.json" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="resources\json.png" />
-    <EmbeddedResource Include="schema.json" />
   </ItemGroup>
 
   <ItemGroup>
