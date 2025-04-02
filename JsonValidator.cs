@@ -16,15 +16,6 @@ namespace JsonValidator
                 License.RegisterLicense(licenseKey);
             }
 
-            /*
-            string jsonSchemaString;
-            var assembly = Assembly.GetExecutingAssembly();
-            using (Stream stream = assembly.GetManifestResourceStream("JsonValidator.schema.json"))
-            using (StreamReader reader = new StreamReader(stream))
-            {
-                jsonSchemaString = reader.ReadToEnd();
-            }*/
-
             // Read the JSON Schema and JSON Document 
             string jsonSchemaString = Encoding.UTF8.GetString(jsonSchema);
             string jsonDocumentString = Encoding.UTF8.GetString(jsonFile);
